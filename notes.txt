@@ -1,1 +1,42 @@
 first init
+
+Firstly, we are going to learn how to load in different files. Like csv and excel files.
+
+LOADING DATA
+
+1. First we import pandas as pd
+2. Have a variable that reads the data. Like this:
+
+data_csv = pd.read_csv('filename.csv')
+
+If we print(data_csv), it'll print out all the data.
+
+3. We can also load in .txt files. 
+
+data_txt = pd.read_txt('textfile', header = 0, sep = ',')
+
+The first argument is the file, second arg is the line where the file starts such that we don't
+include that header in the data (but we include it in the column headers), and sep is the symbol 
+that separates the rows inside the .txt file.
+
+4. We can load excel files too.
+
+data_excel = pd.read_excel('file.xlsx', sheet_name='Sheet1')
+
+First arg is the excel filename, second arg is the page within the file you want to read in.
+
+5. We can load json files too.
+
+data_json = pd.read_json('file.json')
+
+Explanatory.
+
+6. We can load in data from SQL databases.
+
+- Import the library: import sqlite3
+- Connect to the db: connection_db = sqlite3.connect("database_name.db")
+- Now we can specify a query. Like this:
+
+query_1 = 'SELECT col_1 FROM table_name'
+
+timestamp 21:41
