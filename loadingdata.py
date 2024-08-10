@@ -17,3 +17,5 @@ data_json = pd.read_json('textfile', header = 0, sep = ',')
 # connection to sql database
 connection_db = sqlite3.connect("database_name.db")
 query_1 = 'SELECT col_1 FROM table_name'
+
+data_sql = pd.read_sql(query_1, connection_db)

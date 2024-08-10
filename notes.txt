@@ -2,7 +2,9 @@ first init
 
 Firstly, we are going to learn how to load in different files. Like csv and excel files.
 
-LOADING DATA
+---LOADING DATA---
+Goal: How to load different sources of data using python
+
 
 1. First we import pandas as pd
 2. Have a variable that reads the data. Like this:
@@ -40,3 +42,94 @@ Explanatory.
 query_1 = 'SELECT col_1 FROM table_name'
 
 timestamp 21:41
+
+7. In order to carry out this query_1, we need to do this:
+
+**The first arg is the query and the second arg is the database.
+data_sql = pd.read_sql(query_1, connection_db)
+
+
+
+
+
+
+
+---DATA EXPLORATION AND PREPROCESSING ---
+Goal: How to explore the data and preprocess it. How to fill
+in missing values, how to access different values, etc.
+
+
+1. The following is a way to have the first 5 rows of an entire data set with all
+of the columns.
+
+data_csv = pd.read_csv('filename.csv')
+print(data_csv.head())
+
+# The head function does this.
+
+We can show the first 100 rows with putting the number into the head.
+Like this:
+
+print(data_csv.head(100))
+
+2. The following is a way to have the last 5 rows of an entire data set with all
+of the columns.
+
+print(data_csv.tail())
+
+# tail does the bottom of the table.
+
+3. The following is a way to gather more information about the types of data
+in the table, along with the amount of non-null values in the set.
+
+print(data_csv.info())
+
+# This shows the column titles, the non-null content, and the data types.
+
+
+4. If we want to drop all the null values in the data set, we can do the following.
+
+print(data_csv.dropna())
+
+
+5. If you want to fill the N/A values with a certain value instead of dropping them, do this.
+
+print(data_csv.fillna("NULL"))
+
+
+6. Let's say you have rows in the data that are identical to each other and want to get rid
+of them.
+
+print(data_csv.drop_duplicates())
+
+7. How can we access certain rows in the database? Like this:
+We want the 10th row.
+
+print(data_csv.iloc[10])
+
+** How can we access certains rows and columns with .loc?
+
+print(data_csv.loc['X'])  # This is to get a certain row
+
+print(data_csv.loc[:, "A2"])  # This is to get a certain column. We need to specify all rows here.
+
+--
+iloc is used to access integer labeled rows
+loc is used to access string labeled rows and columns
+
+
+
+
+
+
+-- DATA AGGREGATION FILTERING, SORTING, GROUPING---
+Goal: How to manipulate data to our liking such that we
+can make our inferences to it.
+
+Grouping - combining data by like variables.
+Filtering - taking out data points based on criteria
+Sorting - organize info in ascending or descending order.
+
+
+// timestamp: 41:59
+1. 
