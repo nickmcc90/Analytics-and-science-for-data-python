@@ -132,4 +132,10 @@ Sorting - organize info in ascending or descending order.
 
 
 // timestamp: 41:59
-1. 
+
+** data is a table of data with the columns name, age, salary, department
+
+1. Let's say we want to sort the data by a specific column.
+data.sort_values()
+
+// timestamp: 43:56
