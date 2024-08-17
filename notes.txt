@@ -139,3 +139,9 @@ Sorting - organize info in ascending or descending order.
 data.sort_values()
 
 // timestamp: 43:56
+
+1a. sort_values...
+1b. by = column we want to organize by.
+1c. ascending = True (we could've skipped this argument.)
+
+// timestamp: 44:44
