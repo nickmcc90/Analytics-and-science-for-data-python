@@ -23,4 +23,17 @@ data_sql = pd.read_sql(query_1, connection_db)
 
 # pretend that data is a data frame.
 data = {}
-data.sort_values
+data.sort_values(by = 'Salary', ascending=True)
+
+# this is the number of times each department appears for the other columns
+data.groupby("Department").count()
+# and this is how many times each department appears for the name column only
+data.groupby("Department")["Name"].count()
+
+# let's grab the average salary per department
+data.groupby("Department")["Salary"].mean()
+# this grabs the lease salary per department
+data.groupby("Department")["Salary"].mean()
+
+# if we want to display a certain salary above 100k, we do it this way..
+data[data["Salary"] > 100000]

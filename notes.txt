@@ -2,6 +2,10 @@ first init
 
 Firstly, we are going to learn how to load in different files. Like csv and excel files.
 
+
+
+
+
 ---LOADING DATA---
 Goal: How to load different sources of data using python
 
@@ -143,5 +147,21 @@ data.sort_values()
 1a. sort_values...
 1b. by = column we want to organize by.
 1c. ascending = True (we could've skipped this argument.)
+1d. The default value is set as ascending True.
+data = {}
+data.sort_values(by = 'Salary', ascending=True)
 
 // timestamp: 44:44
+
+2. We can use the groupby function to further assess the data.
+Look at these functions...
+
+# this is the number of times each department appears for the other columns
+data.groupby("Department").count()
+# and this is how many times each department appears for the name column only
+data.groupby("Department")["Name"].count()
+
+# let's grab the average salary per department
+data.groupby("Department")["Salary"].mean()
+
+timestamp -> 55:37
