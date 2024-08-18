@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 
 import sqlite3
 
@@ -37,3 +38,13 @@ data.groupby("Department")["Salary"].mean()
 
 # if we want to display a certain salary above 100k, we do it this way..
 data[data["Salary"] > 100000]
+
+# If we want to include a range of salaries to print, we can do this:
+data[data["Salary"] > 100000 and data["Salary"] < 200000]
+
+# If we want a specific value, we use isin()
+data[data["Age"].isin([20,65])]
+
+
+######DESCRIPTIVE STATISTICS
+data2 = [100, 30, 44, 54, 66, 73, 35, 32]

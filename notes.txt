@@ -165,3 +165,26 @@ data.groupby("Department")["Name"].count()
 data.groupby("Department")["Salary"].mean()
 
 timestamp -> 55:37
+
+# if we want to display a certain salary above 100k, we do it this way..
+data[data["Salary"] > 100000]
+
+If we want to include a range of salaries to print, we can do this:
+data[data["Salary"] > 100000 and data["Salary"] < 200000]
+
+If we want a specific value, we use isin()
+data[data["Age"].isin([20,65])]
+
+
+
+
+
+
+
+
+---DESCRIPTIVE STATICISTICS---
+Descriptive statistics table.
+We can identify outliers and patterns, as well as the types of data.
+Helps to investigate the data, helps to get a good understanding of your
+data of a random sample. The sample should be a good one. We can visualize
+the data through des. stats. as well.
