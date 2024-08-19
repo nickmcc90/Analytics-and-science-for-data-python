@@ -48,3 +48,6 @@ data[data["Age"].isin([20,65])]
 
 ######DESCRIPTIVE STATISTICS
 data2 = [100, 30, 44, 54, 66, 73, 35, 32]
+mean = np.mean(data2)
+median = np.median(data2)
+mode = np.mode(data2)

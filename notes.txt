@@ -188,3 +188,17 @@ We can identify outliers and patterns, as well as the types of data.
 Helps to investigate the data, helps to get a good understanding of your
 data of a random sample. The sample should be a good one. We can visualize
 the data through des. stats. as well.
+
+** We need to import numpy as np
+
+We can calculate the mean as shown in loadingdata.py on line 51. 
+Sometimes, data can be left or right skewed, so getting the mean isn't
+an accurate representation. The median is better here.
+
+We can get the median with the evidence on line 52.
+
+We can get the mode too: line 53. We will use a different import.
+It is not within numpy. It is in scipy. Like this:
+
+from scipy import stats
+//timestamp: 1:07:47
