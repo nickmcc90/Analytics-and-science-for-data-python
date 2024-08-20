@@ -50,4 +50,9 @@ data[data["Age"].isin([20,65])]
 data2 = [100, 30, 44, 54, 66, 73, 35, 32]
 mean = np.mean(data2)
 median = np.median(data2)
-mode = np.mode(data2)
+
+from scipy import stats
+mode = stats.mode(data2)
+
+variance = np.var(data2)
+std = np.std(data2)

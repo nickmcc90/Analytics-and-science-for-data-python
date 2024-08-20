@@ -202,3 +202,17 @@ It is not within numpy. It is in scipy. Like this:
 
 from scipy import stats
 //timestamp: 1:07:47
+mode = stats.mode(data2)
+
+We don't usually use mode so we'd need a different import.
+
+We include variance and standard deviation.
+Standard deviation is preferred.
+
+variance = np.var(data2)
+std = np.std(data2)
+
+*We can use the describe() function to get the most
+important descriptive statistics on a dataframe.
+
+//timestamp: 1:13:00
