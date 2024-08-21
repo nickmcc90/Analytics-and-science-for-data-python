@@ -216,3 +216,22 @@ std = np.std(data2)
 important descriptive statistics on a dataframe.
 
 //timestamp: 1:13:00
+
+
+
+
+
+
+
+--DATA MERGING--
+Sometimes our data comes in many different files and we need to merge
+them and do some preprocessing.
+
+To do this, we must know the different joins...
+Left join
+Right join
+Inner join
+Left anti join
+Right anti join
+
+//timestamp: 1:16:23
