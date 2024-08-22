@@ -228,10 +228,20 @@ Sometimes our data comes in many different files and we need to merge
 them and do some preprocessing.
 
 To do this, we must know the different joins...
-Left join
-Right join
-Inner join
-Left anti join
-Right anti join
+Left join (All rows in left and matching columns in right)
+Right join (All rows in right and matching columns in left)
+Inner join (All matching rows in left and right)
+Left anti join (All rows in left that do not match up with right)
+Right anti join (All rows in right that do not match up with left)
 
 //timestamp: 1:16:23
+
+There needs to be a key identifier when merging two tables. For instance,
+a sales table and a customer table. These tables can be linked by the customer
+having purchase data in the sales table.
+
+
+
+--MERGING DATA.PY--
+
+//timestamp: 1:23:06

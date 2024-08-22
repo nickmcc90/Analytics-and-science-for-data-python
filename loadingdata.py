@@ -58,6 +58,3 @@ variance = np.var(data2)
 std = np.std(data2)
 
 print(data2.describe())
-
-
-#####DATA MERGING
