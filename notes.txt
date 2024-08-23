@@ -245,3 +245,7 @@ having purchase data in the sales table.
 --MERGING DATA.PY--
 
 //timestamp: 1:23:06
+
+Look at mergingdata.py...
+
+//timestamp: 1:30:54
