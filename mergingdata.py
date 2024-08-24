@@ -25,4 +25,16 @@ print(merge_left_join)
 # A right join is the same here.
 
 
-# Let's do a left anti join.
+# Let's do a left anti join. With indicator equalling true, we can see that
+# a merge column shows up in the print statement that shows us where it is
+# 'left only' 
+# As you can see, we need two steps to get the anti join.
+merged_left = pd.merge(data1, data2, on='key', how='left', indicator=True)
+print(merged_left)
+
+merged_left_anti_join = merged_left[merged_left["_merge"] == 'left_only']
+print(merged_left_anti_join)
+
+# this still outputs the _merge column, so let's drop this column.
+
+merged_left_anti_join.drop("_merge", axis=1) # axis 0 is row, and axis 1 is column

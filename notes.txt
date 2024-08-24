@@ -249,3 +249,5 @@ having purchase data in the sales table.
 Look at mergingdata.py...
 
 //timestamp: 1:30:54
+
+//timestamp: 1:36:12
