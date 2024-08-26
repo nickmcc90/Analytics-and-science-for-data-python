@@ -251,3 +251,13 @@ Look at mergingdata.py...
 //timestamp: 1:30:54
 
 //timestamp: 1:36:12
+
+
+
+
+--DATA VISUALIZATION--
+With matlot.py. It is super important to visualize data.
+
+1. We are going to learn line plots first. Let's make a new file.
+
+//timestamp: 1:38:12

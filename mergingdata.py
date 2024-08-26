@@ -37,4 +37,15 @@ print(merged_left_anti_join)
 
 # this still outputs the _merge column, so let's drop this column.
 
-merged_left_anti_join.drop("_merge", axis=1) # axis 0 is row, and axis 1 is column
+merged_left_anti_join = merged_left_anti_join.drop("_merge", axis=1) # axis 0 is row, and axis 1 is column
+print(merged_left_anti_join)
+
+# right anti join is the same
+right_join = pd.merge(data1, data2, on='key', how='right', indicator=True)
+print(right_join)
+
+merged_right_anti_join = right_join[right_join["_merge"] == 'right_only']
+print(merged_right_anti_join)
+
+merged_right_anti_join = merged_right_anti_join.drop("_merge", axis=1)
+print(merged_right_anti_join)
