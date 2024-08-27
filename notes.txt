@@ -261,3 +261,10 @@ With matlot.py. It is super important to visualize data.
 1. We are going to learn line plots first. Let's make a new file.
 
 //timestamp: 1:38:12
+
+2. matplotlib.pyplot allows us to plot.
+
+3. Make sure both arrays are the same length
+3a. For some reason the plot isn't showing
+
+//timestamp: 1:40:25
