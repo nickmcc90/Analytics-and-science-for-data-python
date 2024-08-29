@@ -18,3 +18,8 @@ plt.xlabel("x-axis placeholder")
 plt.ylabel("y-axis placeholder")
 plt.title("Title placeholder")
 plt.show()
+
+# barchart
+name = ['cat', 'dog', 'horse', 'fish']
+cats = [10, 30, 100, 1]
+plt.bar(cats)
