@@ -273,3 +273,10 @@ With matlot.py. It is super important to visualize data.
 //timestamp: 1:46:31
 
 //timestamp: 1:47:40
+
+4. Making a barchart is easy too.
+5. Histogram: groups data into ranges and bins. These are
+used in interviews a lot. We will need numpy to generate
+
+//timestamp 1:57:33
+Check out the github repo to see how to get the graph to work.
