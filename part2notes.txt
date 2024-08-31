@@ -1,3 +1,35 @@
 PART 2, AB TESTING THEORY
 
 //timestamp: 1:59:39
+
+AB testing helps data scienists to measure the effectiveness
+changes to a product to rely on data evidence rather than
+intuition for more product changes.
+
+It also helps them to identify the most effective changes of
+a product bc it allows people to optimize the product.
+
+We can validate what changes can improve a product before the
+changes are made with supported evidence from AB testing.
+
+AB testing is a very popular way for businesses to test out:
+- UX features
+- new versions of a product
+- new versions of an algorithm
+
+before launching.
+
+You can do AB testing by showing the current version to a CONTROL
+group, and the new version to an EXPERIMENTAL group.
+
+
+
+
+------TESTING PROCESS STEPS
+1. State the hypothesis of the A/B test.
+- Coming up with a hypothesis. Includes understanding how you'll measure the success,
+which is called the primary metric.
+2. A/B Test design, power analysis
+- Design entire test. Making assumptions about the most important parameters
+of the test,
+//timestamp: 2:04:27
