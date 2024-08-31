@@ -49,3 +49,6 @@ plt.ylabel("Frequency")
 plt.title("randomly generating 1000")
 plt.legend()
 plt.show()
+
+# The population distribution doesn't quite work, I don't know why. My question is...
+# Why isn't the yellow line going exactly around the green bar chart?
