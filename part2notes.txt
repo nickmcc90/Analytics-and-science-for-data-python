@@ -31,5 +31,23 @@ group, and the new version to an EXPERIMENTAL group.
 which is called the primary metric.
 2. A/B Test design, power analysis
 - Design entire test. Making assumptions about the most important parameters
-of the test,
+of the test, calculating minimum sample size required to claim statistical
+significance.
+
 //timestamp: 2:04:27
+
+3. Run the A/B test.
+- Make sure test runs smoothly. Make sure parameters are satisfied.
+Collecting data.
+4. Results analysis -> statistical significance
+- Testing the hypothesis in step 1 by running analysis on the data
+collected in step 3.
+5. Results analysis -> practical significance
+- Seeing if the conclusions made can make things happen in the real world.
+
+
+
+
+---NUMBER ONE: HYPOTHESIS AND PRIMARY METRIC
+
+//timestamp: 2:06:25
