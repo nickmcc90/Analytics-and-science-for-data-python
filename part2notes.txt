@@ -71,3 +71,6 @@ the problem?
 
 If our end goal is revenue, then our primary metric would be conversion rate.
 Conversion rate = (number of conversions / number of total visitors) * 100%
+
+If our end goal is engagment, 
+//timestamp: 2:11:47
