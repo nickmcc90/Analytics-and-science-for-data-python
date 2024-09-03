@@ -51,3 +51,16 @@ collected in step 3.
 ---NUMBER ONE: HYPOTHESIS AND PRIMARY METRIC
 
 //timestamp: 2:06:25
+
+1a. Creating a business hypothesis
+Describes the two products being compared and what the desired
+impact is for the business.
+"Using the color green for our website will increase engagment"
+
+1b. Selecting a primary metric.
+There should only be one primary metric in an A/B test. It is used to
+define a statistically significant difference between the two things.
+Revenue isn't always the end goal, so you must look to tie a metric
+to a relevant thing.
+
+//timestamp: 2:08:44
