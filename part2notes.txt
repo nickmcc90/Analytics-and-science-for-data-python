@@ -64,3 +64,10 @@ Revenue isn't always the end goal, so you must look to tie a metric
 to a relevant thing.
 
 //timestamp: 2:08:44
+
+Metric Validity question - If the chosen metric were to increase significantly
+while everything else stays constant, would we achieve our goal and address
+the problem?
+
+If our end goal is revenue, then our primary metric would be conversion rate.
+Conversion rate = (number of conversions / number of total visitors) * 100%
