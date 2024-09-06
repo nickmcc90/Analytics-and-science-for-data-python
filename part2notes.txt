@@ -81,3 +81,20 @@ This metric is good for email marketing, paid advertisements, and the like.
 //timestamp: 2:11:47
 
 //timestamp: 2:13:46
+
+Statistical hypothesis is a procedure used to determine whether there is a
+difference between the observed and expected data.
+To decide how to fix a potential issue in a product.
+
+We can have two types... null hypothesis and alternative hypothesis.
+They mean a hyp that we don't want to happen, and one we want to happen,
+respectively.
+
+Example:
+Null -> CTR of a button being blue is the same as being green.
+Alternative -> CTR of button being green is larger than blue.
+
+We want to reject the null and accept the alternative to improve our product.
+
+We are ready to proceed to the next stage in the A/B testing process.
+//timestamp: 2:16:14
