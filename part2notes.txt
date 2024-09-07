@@ -98,3 +98,19 @@ We want to reject the null and accept the alternative to improve our product.
 
 We are ready to proceed to the next stage in the A/B testing process.
 //timestamp: 2:16:14
+
+------NUMBER TWO: A/B TEST DESIGN
+We need to perform the power analysis and discover the minimum
+sample size in order to design our test.
+
+Three steps:
+1. Power analysis - making assumptions about the model parameters
+    The power is the probability of rejecting a null hypothesis.
+    It is the probability of not making a type II error (not rejecting a null hyp)
+    Usually the power of an A/B test is 80%. This means there is a 20% allowable
+    chance to not reject a null hypothesis.
+
+    //timestamp: 2:18:53
+    
+2. Minimum sample size - using the parameters from power analysis
+3. Test duration - yep.
