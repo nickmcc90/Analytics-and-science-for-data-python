@@ -118,9 +118,16 @@ Three steps:
     we have a confidence level of 95% that there is a good difference between the control
     and experiemental group.
 
-    ** Minimum detectable effect
+    ** Minimum detectable effect - Basically what is the minimum amount of change to
+    warrant having a call to action about this new change? In other words, the smallest effect that
+    matters. The amount depends from business to business. This value will translate statistical
+    significance to practical significance.
 
     //timestamp: 2:20:38
     
 2. Minimum sample size - using the parameters from power analysis
+  To make sure that our results are repeatable, robust, and generalized to the
+  entire population,
+
+  //timestamp: 2:22:27
 3. Test duration - yep.
