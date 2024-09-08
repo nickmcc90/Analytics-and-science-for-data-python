@@ -110,7 +110,17 @@ Three steps:
     Usually the power of an A/B test is 80%. This means there is a 20% allowable
     chance to not reject a null hypothesis.
 
-    //timestamp: 2:18:53
+        //timestamp: 2:18:53
+
+    **Significance level - The probability of rejecting the null while the null is true.
+    This is like a false positive. This is a type one error. It is common to pick
+    5% as the significance level of a test. As an inverse, having these 5% stat means
+    we have a confidence level of 95% that there is a good difference between the control
+    and experiemental group.
+
+    ** Minimum detectable effect
+
+    //timestamp: 2:20:38
     
 2. Minimum sample size - using the parameters from power analysis
 3. Test duration - yep.
