@@ -127,7 +127,19 @@ Three steps:
     
 2. Minimum sample size - using the parameters from power analysis
   To make sure that our results are repeatable, robust, and generalized to the
-  entire population,
+  entire population, we need to avoid p-hacking (which is the inappropriate manipulation of data 
+  analysis to enable a favored result to be presented as statistically significant.)
+  We want to make sure we collect the enough amount of observations for a minimum. 
+  We must determine the sample sizes for the control and experiemental groups.
+
+  To do this, we need to take a closer look at our primary metric. There are two scenarios:
+
+  2a. primary metric of A/B testing is a binary variable
+    - Conversion or no conversion.
+  2b. primary metric of A/B testing is in the form of proportions or averages.
+    - Mean click through rate
+
+  //timestamp: 2:25:18
 
   //timestamp: 2:22:27
 3. Test duration - yep.
