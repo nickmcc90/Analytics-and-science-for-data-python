@@ -141,5 +141,19 @@ Three steps:
 
   //timestamp: 2:25:18
 
+  Let's do an example. 
+
+  A null hypothesis (Ho) can be the control and experimental primary metrics equalling the same
+  number. (This is bad because there is no difference).
+  An alternative hypothesis can be them not being equal. (H1)
+
+  If we take a large enough sample size from a population, it can be a normal
+  distribution even if the population wasn't a normal distribution.
+
+  There is a long equation and derivation for the equation to the minimum sample
+  size. It isn't necessary to memorize this equation as there are online calculators
+  that ask you for everything.
+  //timestamp: 2:28:50
+
   //timestamp: 2:22:27
 3. Test duration - yep.
