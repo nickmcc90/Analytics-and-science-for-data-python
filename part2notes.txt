@@ -157,5 +157,20 @@ Three steps:
 
   //timestamp: 2:29:24
 
+  Note that some calculators will confuse statistical significance with
+  confidence level. Confidence level is what is at 90-99%, and statistical
+  significance is what is at 5%. Sometimes calculators put the significance
+  level at 95%, meaning the opposite accidentally.
+
   //timestamp: 2:22:27
 3. Test duration - yep.
+  This needs to be figured out before running the experiment. Some people stop
+  the test when they discover statistical significance (which is p-hacking). 
+  Duration can be equal to N over # of vistors per day. Written like this:
+
+  * N is minimum sample size
+  * # of visitors per day is average # of visitors on your site a day.
+
+  Duration = (N) / (# visitors per day) 
+
+  //timestamp: 2:31:08
