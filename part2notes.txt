@@ -174,3 +174,10 @@ Three steps:
   Duration = (N) / (# visitors per day) 
 
   //timestamp: 2:31:08
+
+  Be sure you use common sense when running your test duration. Don't
+  run a month long test during December, when there is Christmas
+  and the end of the year. This might mess up the results because
+  things could be different on these days. A crucial part of testing is
+  to have things be random.
+  //timestamp: 2:32:34
